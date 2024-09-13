@@ -1,0 +1,8 @@
+Start the development server to see your changes in real-time:
+ng serve
+Open http://localhost:4200 in your browser to view your website.
+
+ng build --prod
+The output will be in the dist/ directory, which you can upload to a static hosting service like GitHub Pages, Netlify, or Vercel.
+ng build --prod --output-path docs --base-href /<repository-name>/
+This will generate your static files in the docs folder, which is necessary for GitHub Pages.
